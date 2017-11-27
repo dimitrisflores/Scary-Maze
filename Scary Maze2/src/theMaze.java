@@ -9,6 +9,10 @@ public static void main(String[] args) {
 	startGame();
     Game_Beginning();
     Game_Board();
+    callArrayList();
+    makeMove();
+    //I'm so tired today.
+    
 }
 public static void startGame()
 {
@@ -47,8 +51,11 @@ public static void Game_Board(){
         
     }
 }
-    
-    public static void makeMove()
+public static void callArrayList()
+	{
+	theMaze.callingRandomChar();
+	}
+	public static void makeMove()
     	{
     		xLocation = (int )(Math.random() * 20 + 1);
     	    yLocation =(int )(Math.random()* 20 +1 );

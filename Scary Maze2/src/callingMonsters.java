@@ -40,7 +40,7 @@ public class callingMonsters
 				list.add(new monster("Archer", "Rememeber that one time I accidently shot you?"));
 				list.add(new monster("Pickle Rick", "IM PICKLE RICK!!!!!!!"));
 				}
-			private static void callingRandomChar()
+			public static void callingRandomChar()
 				{
 					int counter = 1;
 			        Collections.shuffle(list);
